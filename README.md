@@ -1,22 +1,22 @@
-### EXP NO: 03
+### EX NO: 03
 
-### .
+### DATE: 19/09/2022
 
-# <p align = "center"> Convolutional Deep Neural Network for Digit Classification </p>
 
- 
+# <br><p align = "center"> Convolutional Deep Neural Network for Digit Classification </p>
+
 
 ## AIM
 
 To Develop a convolutional deep neural network for digit classification and to verify the response for scanned handwritten images.
-
+<br><br><br>
 ## Problem Statement and Dataset
 The MNIST dataset is a collection of handwritten digits. The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively. The dataset has a collection of 60,000 handwrittend digits of size 28 X 28. Here we build a convolutional neural network model that is able to classify to it's appropriate numerical value.
 
 ![image](https://user-images.githubusercontent.com/75235293/190975763-7d3b7c0f-9458-41e9-a35c-aa063c4977da.png)
 
 
-## <br><br><br><br><br>Neural Network Model
+## <br><br><br>Neural Network Model
 ![Screenshot (423)](https://user-images.githubusercontent.com/75243072/191222827-1d87adfd-172e-41c9-af5f-6c6cfdd7d0ac.png)
 
 
@@ -43,10 +43,12 @@ Evaluate the model with the testing data
 ### STEP-10:
 Fit the model and predict the single input
 
-## PROGRAM
-```python
+## <br>PROGRAM
+```
 # Developed By:DineshKumar V
 # Register Number:212220230013
+```
+```python
 import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
@@ -134,13 +136,13 @@ plt.imshow(img_28_gray_scaled.reshape(28,28),cmap='gray')
 
 
 
-### New Sample Data Prediction
+### <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>New Sample Data Prediction
 ![Screenshot (433)](https://user-images.githubusercontent.com/75235789/191796653-33a7b07e-4d52-4346-b860-118a40f037ed.png)
 
 
 
 
-## RESULT
+## <br><br><br><br><br>RESULT
 Thus,a convolutional deep neural network for digit classification is developed and the response for scanned handwritten images is verified.
 
 
